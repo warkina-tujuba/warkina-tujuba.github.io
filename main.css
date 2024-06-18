@@ -1,0 +1,21 @@
+body {
+  background-color: #b65920;
+  text-align: center;
+  }
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+h2 {
+  font-size: 50px;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+img {
+  width="120"
+  height="120"
+}
