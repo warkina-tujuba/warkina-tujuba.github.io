@@ -45,12 +45,16 @@ p {
   font-style: normal;
   margin: 10px 0 0;
 }
-
-#subpages h1 {
-  margin-top: 6px;
-  margin-bottom: 10px;
+.list {
+  text-align: left;
 }
-
-#subpages h2 {
-  margin-top: 6px;
-  margin-bottom: 8px;
+.subpages {
+  margins: top 6
+  margins: bottom 6px;
+}
+.blog-p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
