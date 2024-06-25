@@ -1,7 +1,7 @@
 body {
   background-color: #b65920;
   text-align: center;
-  margin: 0;
+  margin-top: 10;
   padding: 0;
 }
 h2 {
@@ -72,6 +72,13 @@ p {
   font-weight: 100;
   text-align: left;
   text-indent: 5px;
+}
+.blog-h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: left;
+  text-indent: 15px;
 }
 .box {
   width: 700px;
