@@ -19,7 +19,7 @@ header {
   background-color: #2c07f1;
   padding: 50px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 10px;
   color: white;
   margin-top: 35px;
@@ -30,7 +30,9 @@ p {
   font-weight: 200;
   font-style: normal;
 }
-
+.indent {
+  text-indent: 20px;
+}
 .p-title {
   font-size: 50px;
   font-family: sans-serif;
@@ -62,9 +64,9 @@ p {
 }
 .list {
   font-size: 15px;
-  font-family: sans-serif;
-  font-weight: 100;
-  text-align: left;
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 50;
+  text-align: center;
 }
 .blog-p {
   font-size: 20px;
@@ -73,7 +75,7 @@ p {
   text-align: left;
   text-indent: 5px;
 }
-.blog-h3 {
+h6 {
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 100;
@@ -89,7 +91,7 @@ p {
 }
 .heading-border {
   border: 50px solid #b65920;
-  border-radius: 12%;
+  border-radius: 5%;
   border-top: 60px;
   border-bottom: 5px;
   padding: 20px;
