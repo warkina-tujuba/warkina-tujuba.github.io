@@ -19,7 +19,7 @@ header {
   background-color: #2c07f1;
   padding: 50px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-left: 10px;
   color: white;
   margin-top: 35px;
@@ -40,8 +40,10 @@ p {
   font-style: normal;
 }
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* grid-template-columns: repeat(3, 1fr); */
   gap: 20px;
   padding: 20px;
   align-items: center;
@@ -157,6 +159,20 @@ h6 {
   font-weight: 200;
   margin-top: 10px;
   color: #fdfbfb;
+}
+
+ul {
+  font-size: 25px;
+  font-weight: lighter;
+  padding-left: 50px;
+  text-align: left;
+}
+
+li {
+  font-size: 25px;
+  font-weight: 4;
+  margin-bottom: 5px;
+  text-align: left;
 }
 @media (max-width: 768px) {
   .image-row {
