@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript Fundamentals</title>
+    <title>Problem Solving</title>
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
@@ -23,86 +23,37 @@
   <body>
     <header class="heading-border">
         <div>
-          <h1>Javascript Fundamentals</h1>
-          <h3>30 June 2024</h3>
-          <h2>Key Definitions:</h2>
-          <h4>HTML (Hypertext Markup Language)</h4>
+          <h1>Problem Solving</h1>
+          <h2>5 July 2024</h2>
+          <h4>Discuss a time when you were blocked on a simple problem:</h4>
           <p>
             Think of HTML as the cake's structure. It’s the basic foundation
             that shapes everything. It tells the browser what each part of the
             website is, like headings, paragraphs, and images.
           </p>
-          <h4>CSS (Cascading Style Sheets):</h4>
+          <h4>Discuss a time when you elegantly solved a problem:</h4>
           <p>
-            CSS is like the icing and decorations on the cake. It makes your
-            website look pretty by adding colors, fonts, and layout styles.
+            Think of HTML as the cake's structure. It’s the basic foundation
+            that shapes everything. It tells the browser what each part of the
+            website is, like headings, paragraphs, and images.
           </p>
-          <h4>JavaScript:</h4>
+          <h4>Reflect on how confident you feel using each of these problem-solving techniques/processes:</h4>
+          <p><strong>Pseudocode</strong> <br> 
+            This is the process of leaving comments that tell what the code should do. I.e. what you are trying to do.</p>
+            <p>This is a new one and one I am only just getting used to. I underdstand the idea and how it plays into the same idea of drawing out a wire-frame of a website on a blank piece of paper before begining to code. I belief I will use this method quite regulary to provide structure of my code and to remain focused on what it exactly I am trying to do. This process will also help in producing attractive and "Clean Code".</p>
+          <p><strong>Rubber ducky method</strong> <br> 
+            The Rubber Ducky Method is when you talk through your code to a rubber ducky (or any inanimate object, really) to help you work through a problem.</p>
+            <p>This is a very clever process and is underpin by the view... "if you can teach it, you know it" (or something like that). I have done this subconsciously as I get excited about what I have learnt and look to explain it to my friends. A lot harder than expected! What this process does is make you look for new ways/words to explain a situation to "dumb-it-down" while getting the process, concept or idea across. I will use this process a lot more but in a more blog form.</p>
+          <p><strong>Console.logging</strong> <br> 
+            By strategically placing console.log() statements throughout their code, developers gain insights that allow them to pinpoint where errors occur or unexpected behaviors manifest.</p>
+            <p>Confidence on this one is growing but is relatively low. I get confused as to when to use it and how it pops open in DOM. I get the idea and have seen it during exercises but struggle to open and see when not working on a website based code. This sounds silly just writing it out and I look forward to mastering this one.</p>
+          <h4>Reflect on a time you were reluctant to ask for help. Consider what made you reluctant to do so. What might you try differently next time?</h4>
           <p>
-            JS is the magic ingredient that makes the cake come to life!
-            JavaScript adds interactivity, like buttons that do something when
-            you click them or images that change when you hover over them.
+            Think of HTML as the cake's structure. It’s the basic foundation
+            that shapes everything. It tells the browser what each part of the
+            website is, like headings, paragraphs, and images.
           </p>
-          <h4>DOM (Document Object Model):</h4>
-          <p>
-            The DOM as a map of your cake. It helps you find and change
-            different parts of the website. The DOM is a tree-like structure
-            that represents all the HTML elements on your page.
-          </p>
-          <h4>Google DevTools:</h4>
-          <p>
-            Google DevTools are special tools in the Chrome browser that let you
-            peek inside your cake and see how it’s made. You can use DevTools to
-            inspect and tweak your HTML, CSS, and JavaScript to make sure
-            everything works perfectly.
-          </p>
-          <p>These technologies work together to create and manage interactive web pages:
-            <ul>
-              <li>HTML provides the structure.</li>
-              <li>CSS styles the elements.</li>
-              <li>JavaScript manipulates the elements and styles through the DOM.</li>
-              <li>DevTools help developers debug and optimize their code.</li>
-            </ul>
-          </p>
-        </div>
-        <div class="image-item">
-          <img
-            src="blog-images/big3.jpeg"
-            alt="html, css and java with best friends written above it"
-          />
-        </div>
-        <div>
-          <h2>Understanding Control Flow, Loops, Arrays, and Objects</h2>
-          <p>
-            Now, let's look at some programming concepts: 
-          </p>
-          <p><strong>Control Flow:</strong> refers to the order in which the code executes. It includes structures like conditionals (if, else) and loops that determine the path the program takes.</p>
-      <p><strong>Loops:</strong> are used to repeat a block of code multiple times. Common types of loops are for, while, and do...while loops. They help automate repetitive tasks.</p>
-      <p><strong>Arrays:</strong> are collections of items stored in a single variable. Each item can be accessed by its index. Arrays are useful for storing lists of data.
-  
-      <p><strong>Objects</strong> are collections of key-value pairs. They are used to store related data and functions together.
-      </p>
-      <div class="image-item">
-        <img
-          src="blog-images/js-loops.png"
-          alt="loops"
-        />
-      </div>
-      <h2>Understanding Functions</h2>
-      <p>Functions are like special recipes you can use anytime you need to perform a specific task. They help you organise your code into reusable chunks.</p>
-      <p>Functions make your code easier to read and manage because you can use the same function in different places without writing the same code over and over.</p>
-
-      <h2>Interacting with the DOM using JavaScript</h2>
-        <p>Interacting with the Document Object Model (DOM) using JavaScript is fundamental to creating dynamic and interactive web pages. The DOM is a tree-like structure representing the HTML elements of a web page, allowing JavaScript to access and manipulate them. </p> 
-        <p>By using JavaScript, developers can select elements, change their content, styles, and attributes, and respond to user events. 
-          For instance, selecting an element can be done using methods like:</p> 
-          <ul> 
-          <li>getElementById</li> 
-          <li>querySelector </li> 
-          <p> Once selected, JavaScript can modify the element’s inner HTML, adjust its CSS styles, or change its attributes. This enables a web page to be updated in real-time without requiring a page reload.</p>
-          <p>Event handling is another crucial aspect of DOM manipulation. JavaScript allows developers to add event listeners to HTML elements, enabling the web page to respond to user actions such as clicks, key presses, or mouse movements. Functions like addEventListener are used to bind specific functions to these events, ensuring that when an event occurs, the corresponding function is executed. This interaction capability is key to creating rich, interactive user experiences. </p> 
-          <p>example, a button click can trigger a form submission, an animation, or a data fetch operation from a server, all facilitated by JavaScript manipulating the DOM in response to user inputs.</p>
-        </header>
+          </header>
 
     <header class="heading-border">
       <div>
